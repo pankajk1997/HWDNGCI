@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Client\\HWDnGCI.Client.csproj": {}
+    "C:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Client\\HWDnGCI.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Client\\HWDnGCI.Client.csproj": {
+    "C:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Client\\HWDnGCI.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Client\\HWDnGCI.Client.csproj",
+        "projectUniqueName": "C:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Client\\HWDnGCI.Client.csproj",
         "projectName": "HWDnGCI.Client",
-        "projectPath": "C:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Client\\HWDnGCI.Client.csproj",
+        "projectPath": "C:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Client\\HWDnGCI.Client.csproj",
         "packagesPath": "C:\\Users\\h383590\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Client\\obj\\",
+        "outputPath": "C:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\h383590\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Shared\\HWDnGCI.Shared.csproj": {
-                "projectPath": "C:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Shared\\HWDnGCI.Shared.csproj"
+              "C:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Shared\\HWDnGCI.Shared.csproj": {
+                "projectPath": "C:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Shared\\HWDnGCI.Shared.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Shared\\HWDnGCI.Shared.csproj": {
+    "C:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Shared\\HWDnGCI.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Shared\\HWDnGCI.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Shared\\HWDnGCI.Shared.csproj",
         "projectName": "HWDnGCI.Shared",
-        "projectPath": "C:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Shared\\HWDnGCI.Shared.csproj",
+        "projectPath": "C:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Shared\\HWDnGCI.Shared.csproj",
         "packagesPath": "C:\\Users\\h383590\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\h383590\\AppData\\Roaming\\NuGet\\NuGet.Config",

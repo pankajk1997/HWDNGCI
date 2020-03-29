@@ -2568,11 +2568,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Server\\HWDnGCI.Server.csproj",
+      "projectUniqueName": "C:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Server\\HWDnGCI.Server.csproj",
       "projectName": "HWDnGCI.Server",
-      "projectPath": "C:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Server\\HWDnGCI.Server.csproj",
+      "projectPath": "C:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Server\\HWDnGCI.Server.csproj",
       "packagesPath": "C:\\Users\\h383590\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Server\\obj\\",
+      "outputPath": "C:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\h383590\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2588,11 +2588,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Client\\HWDnGCI.Client.csproj": {
-              "projectPath": "C:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Client\\HWDnGCI.Client.csproj"
+            "C:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Client\\HWDnGCI.Client.csproj": {
+              "projectPath": "C:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Client\\HWDnGCI.Client.csproj"
             },
-            "C:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Shared\\HWDnGCI.Shared.csproj": {
-              "projectPath": "C:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Shared\\HWDnGCI.Shared.csproj"
+            "C:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Shared\\HWDnGCI.Shared.csproj": {
+              "projectPath": "C:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Shared\\HWDnGCI.Shared.csproj"
             }
           }
         }

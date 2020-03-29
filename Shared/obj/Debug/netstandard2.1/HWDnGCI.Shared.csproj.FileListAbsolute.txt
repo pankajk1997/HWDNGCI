@@ -6,3 +6,11 @@ C:\Users\h383590\OneDrive - Honeywell\HWDnGCI\HWDnGCI\HWDnGCI\Shared\obj\Debug\n
 C:\Users\h383590\OneDrive - Honeywell\HWDnGCI\HWDnGCI\HWDnGCI\Shared\obj\Debug\netstandard2.1\HWDnGCI.Shared.AssemblyInfo.cs
 C:\Users\h383590\OneDrive - Honeywell\HWDnGCI\HWDnGCI\HWDnGCI\Shared\obj\Debug\netstandard2.1\HWDnGCI.Shared.dll
 C:\Users\h383590\OneDrive - Honeywell\HWDnGCI\HWDnGCI\HWDnGCI\Shared\obj\Debug\netstandard2.1\HWDnGCI.Shared.pdb
+C:\Users\h383590\Documents\Project GB\HWDNGCI\Shared\bin\Debug\netstandard2.1\HWDnGCI.Shared.deps.json
+C:\Users\h383590\Documents\Project GB\HWDNGCI\Shared\bin\Debug\netstandard2.1\HWDnGCI.Shared.dll
+C:\Users\h383590\Documents\Project GB\HWDNGCI\Shared\bin\Debug\netstandard2.1\HWDnGCI.Shared.pdb
+C:\Users\h383590\Documents\Project GB\HWDNGCI\Shared\obj\Debug\netstandard2.1\HWDnGCI.Shared.csprojAssemblyReference.cache
+C:\Users\h383590\Documents\Project GB\HWDNGCI\Shared\obj\Debug\netstandard2.1\HWDnGCI.Shared.AssemblyInfoInputs.cache
+C:\Users\h383590\Documents\Project GB\HWDNGCI\Shared\obj\Debug\netstandard2.1\HWDnGCI.Shared.AssemblyInfo.cs
+C:\Users\h383590\Documents\Project GB\HWDNGCI\Shared\obj\Debug\netstandard2.1\HWDnGCI.Shared.dll
+C:\Users\h383590\Documents\Project GB\HWDNGCI\Shared\obj\Debug\netstandard2.1\HWDnGCI.Shared.pdb
