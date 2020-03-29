@@ -1,0 +1,415 @@
+﻿html, body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a, .btn-link {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+app {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-row {
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.main {
+    flex: 1;
+}
+
+    .main .top-row {
+        background-color: #f7f7f7;
+        border-bottom: 1px solid #d6d5d5;
+        justify-content: flex-end;
+    }
+
+        .main .top-row > a, .main .top-row .btn-link {
+            white-space: nowrap;
+            margin-left: 1.5rem;
+        }
+
+.main .top-row a:first-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sidebar {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+    .sidebar .top-row {
+        background-color: rgba(0,0,0,0.4);
+    }
+
+    .sidebar .navbar-brand {
+        font-size: 1.1rem;
+    }
+
+    .sidebar .oi {
+        width: 2rem;
+        font-size: 1.1rem;
+        vertical-align: text-top;
+        top: -2px;
+    }
+
+    .sidebar .nav-item {
+        font-size: 0.9rem;
+        padding-bottom: 0.5rem;
+    }
+
+        .sidebar .nav-item:first-of-type {
+            padding-top: 1rem;
+        }
+
+        .sidebar .nav-item:last-of-type {
+            padding-bottom: 1rem;
+        }
+
+        .sidebar .nav-item a {
+            color: #d7d7d7;
+            border-radius: 4px;
+            height: 3rem;
+            display: flex;
+            align-items: center;
+            line-height: 3rem;
+        }
+
+            .sidebar .nav-item a.active {
+                background-color: rgba(255,255,255,0.25);
+                color: white;
+            }
+
+            .sidebar .nav-item a:hover {
+                background-color: rgba(255,255,255,0.1);
+                color: white;
+            }
+
+.content {
+    padding-top: 1.1rem;
+}
+
+.navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.valid.modified:not([type=checkbox]) {
+    outline: 1px solid #26b050;
+}
+
+.invalid {
+    outline: 1px solid red;
+}
+
+.validation-message {
+    color: red;
+}
+
+#blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+#blazor-error-ui .dismiss {
+    cursor: pointer;
+    position: absolute;
+    right: 0.75rem;
+    top: 0.5rem;
+}
+
+@media (max-width: 767.98px) {
+    .main .top-row:not(.auth) {
+        display: none;
+    }
+
+    .main .top-row.auth {
+        justify-content: space-between;
+    }
+
+    .main .top-row a, .main .top-row .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    app {
+        flex-direction: row;
+    }
+
+    .sidebar {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .main .top-row {
+        position: sticky;
+        top: 0;
+    }
+
+    .main > div {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+
+    .sidebar .collapse {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}
+
+.slide-up-fade-in{
+    animation: slide-up-fade-in ease 1s;
+    animation-iteration-count: 1;
+    transform-origin: 50% 50%;
+    animation-fill-mode:forwards; /*when the spec is finished*/
+    -webkit-animation: slide-up-fade-in ease 1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+    -moz-animation: slide-up-fade-in ease 1s;
+    -moz-animation-iteration-count: 1;
+    -moz-transform-origin: 50% 50%;
+    -moz-animation-fill-mode:forwards; /*FF 5+*/
+    -o-animation: slide-up-fade-in ease 1s;
+    -o-animation-iteration-count: 1;
+    -o-transform-origin: 50% 50%;
+    -o-animation-fill-mode:forwards; /*Not implemented yet*/
+    -ms-animation: slide-up-fade-in ease 1s;
+    -ms-animation-iteration-count: 1;
+    -ms-transform-origin: 50% 50%;
+    -ms-animation-fill-mode:forwards; /*IE 10+*/
+
+    opacity:0;
+    opacity: 1\9;
+
+}
+
+@keyframes slide-up-fade-in{
+    0% {
+        opacity:0;
+        transform:  translate(0px,40px)  ;
+    }
+    100% {
+        opacity:1;
+        transform:  translate(0px,0px)  ;
+    }
+}
+
+@-moz-keyframes slide-up-fade-in{
+    0% {
+        opacity:0;
+        -moz-transform:  translate(0px,40px)  ;
+    }
+    100% {
+        opacity:1;
+        -moz-transform:  translate(0px,0px)  ;
+    }
+}
+
+@-webkit-keyframes slide-up-fade-in {
+    0% {
+        opacity:0;
+        -webkit-transform:  translate(0px,40px)  ;
+    }
+    100% {
+        opacity:1;
+        -webkit-transform:  translate(0px,0px)  ;
+    }
+}
+
+@-o-keyframes slide-up-fade-in {
+    0% {
+        opacity:0;
+        -o-transform:  translate(0px,40px)  ;
+    }
+    100% {
+        opacity:1;
+        -o-transform:  translate(0px,0px)  ;
+    }
+}
+
+@-ms-keyframes slide-up-fade-in {
+    0% {
+        opacity:0;
+        -ms-transform:  translate(0px,40px)  ;
+    }
+    100% {
+        opacity:1;
+        -ms-transform:  translate(0px,0px)  ;
+    }
+} 
+
+.slide-left-fade-in{
+    animation: slide-left-fade-in ease 1s;
+    animation-iteration-count: 1;
+    transform-origin: 50% 50%;
+    animation-fill-mode:forwards; /*when the spec is finished*/
+    -webkit-animation: slide-left-fade-in ease 1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+    -moz-animation: slide-left-fade-in ease 1s;
+    -moz-animation-iteration-count: 1;
+    -moz-transform-origin: 50% 50%;
+    -moz-animation-fill-mode:forwards; /*FF 5+*/
+    -o-animation: slide-left-fade-in ease 1s;
+    -o-animation-iteration-count: 1;
+    -o-transform-origin: 50% 50%;
+    -o-animation-fill-mode:forwards; /*Not implemented yet*/
+    -ms-animation: slide-left-fade-in ease 1s;
+    -ms-animation-iteration-count: 1;
+    -ms-transform-origin: 50% 50%;
+    -ms-animation-fill-mode:forwards; /*IE 10+*/
+
+    opacity:0;
+    opacity: 1\9;
+
+}
+
+@keyframes slide-left-fade-in{
+    0% {
+        opacity:0;
+        transform:  translate(40px,0px)  ;
+    }
+    100% {
+        opacity:1;
+        transform:  translate(0px,0px)  ;
+    }
+}
+
+@-moz-keyframes slide-left-fade-in{
+    0% {
+        opacity:0;
+        -moz-transform:  translate(40px,0px)  ;
+    }
+    100% {
+        opacity:1;
+        -moz-transform:  translate(0px,0px)  ;
+    }
+}
+
+@-webkit-keyframes slide-left-fade-in {
+    0% {
+        opacity:0;
+        -webkit-transform:  translate(40px,0px)  ;
+    }
+    100% {
+        opacity:1;
+        -webkit-transform:  translate(0px,0px)  ;
+    }
+}
+
+@-o-keyframes slide-left-fade-in {
+    0% {
+        opacity:0;
+        -o-transform:  translate(40px,0px)  ;
+    }
+    100% {
+        opacity:1;
+        -o-transform:  translate(0px,0px)  ;
+    }
+}
+
+@-ms-keyframes slide-left-fade-in {
+    0% {
+        opacity:0;
+        -ms-transform:  translate(40px,0px)  ;
+    }
+    100% {
+        opacity:1;
+        -ms-transform:  translate(0px,0px)  ;
+    }
+} 
+
+.sidenav {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(111, 169, 207);
+    padding-top: 15px;
+    opacity: 97%;
+  }
+  
+  .sidenav a {
+    padding: 3px 6px 3px 25px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    display: block;
+    color: bisque;
+  }
+  
+  .sidenav a:hover {
+    color: #000000;
+  }
+
+  .container-new {
+    width: 100%;
+    position: relative;
+ }
+ .tag {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 75%;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+ }
+
+ .icon-6 {
+    height: 60px;
+    width: 60px;
+ }
+
+ .icon-4 {
+    height: 40px;
+    width: 40px;
+ }
+
+ .icon-1 {
+     height: 30px;
+     width: 30px;
+ }
+
+ .grid-container {
+    background-color: rgb(243, 243, 243);
+    -webkit-columns: 2 200px;
+    -moz-columns: 2 200px;
+    columns: 2 200px;
+    padding: 5%;
+  }
+  
+  .grid-item {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 5%;
+  }

@@ -1,0 +1,46 @@
+﻿@inherits LayoutComponentBase
+
+<div class="d-flex flex-column w-100" style="@PageOpacity">
+
+<div class="slide-up-fade-in bg-white">
+<img src="https://i.imgur.com/0r5J1cV.png" class="float-left ml-5 icon-6">
+<img @onclick="ToggleSidebar" src="https://i.imgur.com/ohUdyBk.png" class="float-right mr-5 mt-3 icon-4">
+</div>
+
+<SearchBar />
+<HWLabel />
+<Breadcrumbs />
+@Body
+<About />
+<Credit />
+
+</div>
+
+<div class="sidenav @SidebarAnimation" style="@VisValue">
+  <img @onclick="ToggleSidebar" src="https://i.imgur.com/ohUdyBk.png" class="ml-3 mb-3 icon-4">
+  <a href="/" @onclick="ToggleSidebar">Home</a>
+  <a href="/contribute" @onclick="ToggleSidebar">Contribute Resources</a>
+  <a href="" onmouseout="window.scrollTo(0,document.body.scrollHeight);" @onclick="ToggleSidebar">About Us</a>
+  <a href="/donate" @onclick="ToggleSidebar">Donate Money</a>
+</div>
+
+@code {
+  private string VisValue = "visibility: hidden;";
+  private string SidebarAnimation = "";
+  private string PageOpacity = "";
+      private void ToggleSidebar()
+      {
+          if (VisValue.Equals("visibility: hidden;"))
+          {
+              PageOpacity = "opacity: 0.3; transition: .5s ease;";
+              VisValue = "visibility: visible;";
+              SidebarAnimation = "slide-left-fade-in";
+          }
+          else
+          {
+              PageOpacity = "opacity: 1; transition: .5s ease;";
+              VisValue = "visibility: hidden;";
+              SidebarAnimation = "";
+          }
+      }
+}
