@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Client\\HWDnGCI.Client.csproj",
+  "FilePath": "c:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Client\\HWDnGCI.Client.csproj",
   "Configuration": {
     "ConfigurationName": "Default",
     "LanguageVersion": "3.0",
@@ -7,462 +7,6 @@
   },
   "ProjectWorkspaceState": {
     "TagHelpers": [
-      {
-        "Kind": "Components.Component",
-        "Name": "HWDnGCI.Client.Shared.MainLayout",
-        "AssemblyName": "HWDnGCI.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MainLayout",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HWDnGCI.Client.Shared.MainLayout"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "HWDnGCI.Client.Shared.MainLayout",
-        "AssemblyName": "HWDnGCI.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "HWDnGCI.Client.Shared.MainLayout",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HWDnGCI.Client.Shared.MainLayout",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.ChildContent",
-        "Name": "HWDnGCI.Client.Shared.MainLayout.Body",
-        "AssemblyName": "HWDnGCI.Client",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "MainLayout",
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "HWDnGCI.Client.Shared.MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent"
-        }
-      },
-      {
-        "Kind": "Components.ChildContent",
-        "Name": "HWDnGCI.Client.Shared.MainLayout.Body",
-        "AssemblyName": "HWDnGCI.Client",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "HWDnGCI.Client.Shared.MainLayout",
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "HWDnGCI.Client.Shared.MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "HWDnGCI.Client.Shared.About",
-        "AssemblyName": "HWDnGCI.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "About",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HWDnGCI.Client.Shared.About"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "HWDnGCI.Client.Shared.About",
-        "AssemblyName": "HWDnGCI.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "HWDnGCI.Client.Shared.About",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HWDnGCI.Client.Shared.About",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "HWDnGCI.Client.Shared.Breadcrumbs",
-        "AssemblyName": "HWDnGCI.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Breadcrumbs",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HWDnGCI.Client.Shared.Breadcrumbs"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "HWDnGCI.Client.Shared.Breadcrumbs",
-        "AssemblyName": "HWDnGCI.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "HWDnGCI.Client.Shared.Breadcrumbs",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HWDnGCI.Client.Shared.Breadcrumbs",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "HWDnGCI.Client.Shared.Credit",
-        "AssemblyName": "HWDnGCI.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Credit",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HWDnGCI.Client.Shared.Credit"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "HWDnGCI.Client.Shared.Credit",
-        "AssemblyName": "HWDnGCI.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "HWDnGCI.Client.Shared.Credit",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HWDnGCI.Client.Shared.Credit",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "HWDnGCI.Client.Shared.HWLabel",
-        "AssemblyName": "HWDnGCI.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "HWLabel",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HWDnGCI.Client.Shared.HWLabel"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "HWDnGCI.Client.Shared.HWLabel",
-        "AssemblyName": "HWDnGCI.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "HWDnGCI.Client.Shared.HWLabel",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HWDnGCI.Client.Shared.HWLabel",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "HWDnGCI.Client.Shared.SearchBar",
-        "AssemblyName": "HWDnGCI.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SearchBar",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HWDnGCI.Client.Shared.SearchBar"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "HWDnGCI.Client.Shared.SearchBar",
-        "AssemblyName": "HWDnGCI.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "HWDnGCI.Client.Shared.SearchBar",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HWDnGCI.Client.Shared.SearchBar",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "HWDnGCI.Client.Shared.SurveyPrompt",
-        "AssemblyName": "HWDnGCI.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HWDnGCI.Client.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "HWDnGCI.Client.Shared.SurveyPrompt",
-        "AssemblyName": "HWDnGCI.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "HWDnGCI.Client.Shared.SurveyPrompt",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "HWDnGCI.Client.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
       {
         "Kind": "Components.Component",
         "Name": "HWDnGCI.Client.App",
@@ -803,6 +347,462 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "HWDnGCI.Client.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "HWDnGCI.Client.Shared.About",
+        "AssemblyName": "HWDnGCI.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "About",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "HWDnGCI.Client.Shared.About"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "HWDnGCI.Client.Shared.About",
+        "AssemblyName": "HWDnGCI.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "HWDnGCI.Client.Shared.About",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "HWDnGCI.Client.Shared.About",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "HWDnGCI.Client.Shared.Breadcrumbs",
+        "AssemblyName": "HWDnGCI.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Breadcrumbs",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "HWDnGCI.Client.Shared.Breadcrumbs"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "HWDnGCI.Client.Shared.Breadcrumbs",
+        "AssemblyName": "HWDnGCI.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "HWDnGCI.Client.Shared.Breadcrumbs",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "HWDnGCI.Client.Shared.Breadcrumbs",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "HWDnGCI.Client.Shared.Credit",
+        "AssemblyName": "HWDnGCI.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Credit",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "HWDnGCI.Client.Shared.Credit"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "HWDnGCI.Client.Shared.Credit",
+        "AssemblyName": "HWDnGCI.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "HWDnGCI.Client.Shared.Credit",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "HWDnGCI.Client.Shared.Credit",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "HWDnGCI.Client.Shared.HWLabel",
+        "AssemblyName": "HWDnGCI.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "HWLabel",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "HWDnGCI.Client.Shared.HWLabel"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "HWDnGCI.Client.Shared.HWLabel",
+        "AssemblyName": "HWDnGCI.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "HWDnGCI.Client.Shared.HWLabel",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "HWDnGCI.Client.Shared.HWLabel",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "HWDnGCI.Client.Shared.MainLayout",
+        "AssemblyName": "HWDnGCI.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MainLayout",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "HWDnGCI.Client.Shared.MainLayout"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "HWDnGCI.Client.Shared.MainLayout",
+        "AssemblyName": "HWDnGCI.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "HWDnGCI.Client.Shared.MainLayout",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "HWDnGCI.Client.Shared.MainLayout",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.ChildContent",
+        "Name": "HWDnGCI.Client.Shared.MainLayout.Body",
+        "AssemblyName": "HWDnGCI.Client",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "MainLayout",
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "HWDnGCI.Client.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "Kind": "Components.ChildContent",
+        "Name": "HWDnGCI.Client.Shared.MainLayout.Body",
+        "AssemblyName": "HWDnGCI.Client",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "HWDnGCI.Client.Shared.MainLayout",
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "HWDnGCI.Client.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "HWDnGCI.Client.Shared.SearchBar",
+        "AssemblyName": "HWDnGCI.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SearchBar",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "HWDnGCI.Client.Shared.SearchBar"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "HWDnGCI.Client.Shared.SearchBar",
+        "AssemblyName": "HWDnGCI.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "HWDnGCI.Client.Shared.SearchBar",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "HWDnGCI.Client.Shared.SearchBar",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "HWDnGCI.Client.Shared.SurveyPrompt",
+        "AssemblyName": "HWDnGCI.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "HWDnGCI.Client.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "HWDnGCI.Client.Shared.SurveyPrompt",
+        "AssemblyName": "HWDnGCI.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "HWDnGCI.Client.Shared.SurveyPrompt",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "HWDnGCI.Client.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16857,79 +16857,79 @@
   "RootNamespace": "HWDnGCI.Client",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Client\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Client\\Shared\\HWLabel.razor",
-      "TargetPath": "Shared\\HWLabel.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Client\\Shared\\SurveyPrompt.razor",
+      "FilePath": "c:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Client\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Client\\App.razor",
-      "TargetPath": "App.razor",
+      "FilePath": "c:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Client\\Shared\\HWLabel.razor",
+      "TargetPath": "Shared\\HWLabel.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Client\\Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Client\\Shared\\Credit.razor",
-      "TargetPath": "Shared\\Credit.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Client\\Shared\\SearchBar.razor",
-      "TargetPath": "Shared\\SearchBar.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Client\\Shared\\Breadcrumbs.razor",
-      "TargetPath": "Shared\\Breadcrumbs.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Client\\Pages\\Grid.razor",
-      "TargetPath": "Pages\\Grid.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Client\\Shared\\About.razor",
+      "FilePath": "c:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Client\\Shared\\About.razor",
       "TargetPath": "Shared\\About.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Client\\Pages\\Donate.razor",
-      "TargetPath": "Pages\\Donate.razor",
+      "FilePath": "c:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Client\\Pages\\Grid.razor",
+      "TargetPath": "Pages\\Grid.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Client\\Shared\\MainLayout.razor",
+      "FilePath": "c:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Client\\Shared\\Breadcrumbs.razor",
+      "TargetPath": "Shared\\Breadcrumbs.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Client\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Client\\Pages\\FetchData.razor",
+      "TargetPath": "Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Client\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Client\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Client\\Pages\\Contribute.razor",
+      "FilePath": "c:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Client\\Pages\\Contribute.razor",
       "TargetPath": "Pages\\Contribute.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Client\\Pages\\Carousel.razor",
+      "FilePath": "c:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Client\\Shared\\Credit.razor",
+      "TargetPath": "Shared\\Credit.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Client\\Pages\\Carousel.razor",
       "TargetPath": "Pages\\Carousel.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\h383590\\OneDrive - Honeywell\\HWDnGCI\\HWDnGCI\\HWDnGCI\\Client\\_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
+      "FilePath": "c:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Client\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Client\\Shared\\SearchBar.razor",
+      "TargetPath": "Shared\\SearchBar.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\h383590\\Documents\\Project GB\\HWDNGCI\\Client\\Pages\\Donate.razor",
+      "TargetPath": "Pages\\Donate.razor",
+      "FileKind": "component"
     }
   ],
   "SerializationFormat": "0.2"
